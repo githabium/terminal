@@ -1,7 +1,7 @@
 const socket = new WebSocket("wss://your-server.com"); // Укажи свой сервер
 
 socket.onopen = () => {
-    console.log("Connected to server");
+    console.log("Entered Hall);
 };
 
 socket.onmessage = (event) => {
